@@ -3,3 +3,12 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+a > i {
+  position: relative;
+  top: .2em;
+}
+
+.jumbotron {
+  margin: 0;
+}

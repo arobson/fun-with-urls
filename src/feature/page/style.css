@@ -1,0 +1,25 @@
+.page-field {
+  display: inline-block;
+  outline: 0px solid #ddd;
+  padding: .8em;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+.page-input {
+  border: none;
+  display: block;
+  background-color: #efefef;
+  border-radius: 5px;
+  width: 20em;
+  font-size: 1.5em;
+  padding: .2em .6em;
+}
+
+.page-label {
+  text-transform: uppercase;
+  color: #555;
+  display: block;
+  margin: 0;
+  font-size: 1em;
+}

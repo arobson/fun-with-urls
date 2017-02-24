@@ -1,0 +1,68 @@
+.url-status {
+  padding: .2em 0 .2em 1em;
+  background-color: #fafafa;
+  border-bottom: 1px solid #fafafa;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: background-color 0.5s;
+}
+
+.url-status:hover {
+  line-height: 1.6em;
+}
+
+.url-status:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.url-status:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom: none;
+}
+
+.url-status a {
+  color: #444;
+  text-decoration: none;
+  transition: color 0.8s;
+}
+
+.url-status-success {
+  background-color: #d2ffc6;
+}
+
+.url-status-success:hover {
+  background-color: #e8ffe2; 
+}
+
+.url-status-success a {
+  color: green;
+}
+
+.url-status-failed {
+  color: #bf0000;
+  background-color: #ffd6d6;
+}
+
+.url-status-failed:hover {
+  background-color: #ffe5e5;
+}
+
+.url-status-failed a {
+  color: #bf0000;
+}
+
+.url-status-invalid {
+  color: #ed7500;
+  background-color: #fff0e2;
+}
+
+.url-status-invalid:hover {
+  background-color: #fff7ef;
+}
+
+.url-status-invalid a {
+  color: #ed7500;
+}
